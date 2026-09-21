@@ -33,4 +33,18 @@ public class SnippetManager {
     public int getSize() {
         return snippets.size();
     }
+
+    public void printHistory() {
+
+    System.out.println("\n--- Clipboard History ---");
+
+    for (Snippet snippet : snippets.values()) {
+
+        System.out.println(
+                "#" + snippet.getId()
+                        + " [" + snippet.getType() + "] "
+                        + snippet.getContent()
+        );
+    }
+}
 }
