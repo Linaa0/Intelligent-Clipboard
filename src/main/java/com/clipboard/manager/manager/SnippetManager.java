@@ -42,7 +42,7 @@ public class SnippetManager {
 
         System.out.println(
                 "#" + snippet.getId()
-                        + " [" + snippet.getType() + "] "
+                        + " [" + snippet.getType() + "] \n"
                         + snippet.getContent()
         );
     }
