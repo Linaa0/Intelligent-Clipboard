@@ -45,6 +45,8 @@ public class ClipboardMonitor {
                             type
                     );
 
+                    snippetManager.printHistory();
+
                     System.out.println(
                             "New snippet detected: " + type
                     );
